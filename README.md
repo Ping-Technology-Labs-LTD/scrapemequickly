@@ -1,5 +1,17 @@
-# scrapemequickly
+# ScrapeMeQuickly
 
+Welcome to the ScrapeMeQuickly hackathon challange
+
+
+### Example with scraping run id of 89d5dca4-0a34-11f0-b686-4a33b21d14f6
+```json
+{
+    "min_year": 1934,
+    "max_year": 2024,
+    "avg_price": 24148,
+    "mode_make": "Volkswagen Passat B3"
+}
+```
 
 ### Create a team
 ```python
