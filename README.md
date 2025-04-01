@@ -5,7 +5,7 @@
 ```python
 def create_team(team_name: str, team_email: str) -> str:
     r = requests.post(
-        f"{url}/register", data=json.dumps({"team_name": team_name, "team_email": team_email}), headers={"Content-Type": "application/json"}
+        "https://api.scrapemequickly.com/register", data=json.dumps({"team_name": team_name, "team_email": team_email}), headers={"Content-Type": "application/json"}
     )
 
     if r.status_code != 200:
@@ -19,7 +19,7 @@ def create_team(team_name: str, team_email: str) -> str:
 ### Start a scraping run
 ```python
 def start_scraping_run(team_id: str) -> str:
-    r = requests.post(f"{url}/scraping-run?team_id={team_id}")
+    r = requests.post(f"https://api.scrapemequickly.com/scraping-run?team_id={team_id}")
 
     if r.status_code != 200:
         print(r.json())
@@ -32,7 +32,7 @@ def start_scraping_run(team_id: str) -> str:
 ### Submit your answers
 ```python
 def submit(answers: dict, scraping_run_id: str) -> bool:
-    r = requests.post(f"{url}/cars/solve?scraping_run_id={scraping_run_id}", data=json.dumps(answers), headers={"Content-Type": "application/json"})
+    r = requests.post(f"https://api.scrapemequickly.com/cars/solve?scraping_run_id={scraping_run_id}", data=json.dumps(answers), headers={"Content-Type": "application/json"})
 
     if r.status_code != 200:
         print(r.json())
