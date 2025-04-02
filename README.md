@@ -73,6 +73,9 @@ A scraping run ID is the ID that we have generated for a Scraping Run.
 - Why can I not submit another answer for my current scraping run?
 Only one answer submission can be made per scraping run, you must create a new one to try again.
 
+- How come I have sumbitted the correct answer but it was rejected?
+Please ensure your results are sent in the requested format. If you are still unsure, visit us at the event.
+
 - I am being rate-limited, what do I do?
 Use the list of proxies provided to help with this.
 
