@@ -3,16 +3,6 @@
 Welcome to the ScrapeMeQuickly hackathon challange By Ping Proxies
 
 
-### Example with scraping run id of 89d5dca4-0a34-11f0-b686-4a33b21d14f6
-```json
-{
-    "min_year": 1934,
-    "max_year": 2024,
-    "avg_price": 24148,
-    "mode_make": "volkswagen"
-}
-```
-
 ### Create a team
 ```python
 def create_team(team_name: str, team_email: str) -> str:
@@ -59,6 +49,16 @@ def submit(answers: dict, scraping_run_id: str) -> bool:
 
     return True
 ```
+#### Example with scraping run id of 89d5dca4-0a34-11f0-b686-4a33b21d14f6
+```json
+{
+    "min_year": 1934,
+    "max_year": 2024,
+    "avg_price": 24148,
+    "mode_make": "volkswagen"
+}
+```
+
 
 ### FAQ's
 - What is a **Team ID**?
