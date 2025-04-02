@@ -3,6 +3,12 @@
 Welcome to the ScrapeMeQuickly hackathon challange By Ping Proxies
 
 
+### Requirements
+```python
+import requests
+import sys
+```
+
 ### Create a team
 ```python
 def create_team(team_name: str, team_email: str) -> str:
