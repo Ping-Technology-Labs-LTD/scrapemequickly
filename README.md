@@ -1,6 +1,6 @@
 # ScrapeMeQuickly
 
-Welcome to the ScrapeMeQuickly hackathon challange
+Welcome to the ScrapeMeQuickly hackathon challange By Ping Proxies
 
 
 ### Example with scraping run id of 89d5dca4-0a34-11f0-b686-4a33b21d14f6
@@ -59,3 +59,28 @@ def submit(answers: dict, scraping_run_id: str) -> bool:
 
     return True
 ```
+
+### FAQ's
+- What is a Team ID?
+A Team ID is the ID we have generated for your given team with the team name that you provided.
+
+- What is a Scraping Run?
+A scraping run is a 'time trial' of your scraping, started at time of creation and ended when the answer has been submitted. A Team ID is required to start a new scraping run.
+
+- What is a Scraping Run ID?
+A scraping run ID is the ID that we have generated for a Scraping Run.
+
+- Why can I not submit another answer for my current scraping run?
+Only one answer submission can be made per scraping run, you must create a new one to try again.
+
+- I am being rate-limited, what do I do?
+Use the list of proxies provided to help with this.
+
+- What languages can I use?
+Any programming language can be used as long as the answers are submitted to the API endpoint correctly.
+
+- Can I have a hint?
+The first hint is available on https://scrapemequickly.com
+
+- Can I have a job?
+We are currently hiring! Visit https://careers.pingproxies.com/jobs for more info.
