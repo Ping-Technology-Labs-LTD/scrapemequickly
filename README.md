@@ -9,7 +9,7 @@ Welcome to the ScrapeMeQuickly hackathon challange
     "min_year": 1934,
     "max_year": 2024,
     "avg_price": 24148,
-    "mode_make": "Volkswagen Passat B3"
+    "mode_make": "volkswagen"
 }
 ```
 
@@ -24,7 +24,7 @@ def create_team(team_name: str, team_email: str) -> str:
 
     if r.status_code != 200:
         print(r.json())
-        print("Failed to start scraping run")
+        print("Failed to create a team")
         sys.exit(1)
 
     return r.json()["data"]["team_id"]
