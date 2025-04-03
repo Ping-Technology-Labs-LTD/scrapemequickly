@@ -10,7 +10,7 @@ For any page that you are collecting data from, it is important that you **Attac
 
 `?scraping_run_id={scraping-run-id}`
 
-You must submit: minimum year, maximum year, average price and mode (most common) make.
+You must submit: **minimum year**, **maximum year**, **average price** and **mode (most common) make**.
 
 ### Requirements
 ```python
