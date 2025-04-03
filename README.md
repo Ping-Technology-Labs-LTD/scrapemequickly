@@ -15,6 +15,7 @@ You must submit: minimum year, maximum year, average price and mode (most common
 ```python
 import requests
 import sys
+import json
 ```
 
 ### [Create a team](https://scrapemequickly.com/team)
