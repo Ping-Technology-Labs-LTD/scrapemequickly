@@ -64,7 +64,8 @@ def submit(answers: dict, scraping_run_id: str) -> bool:
 
     return True
 ```
-#### Example with scraping run id of 89d5dca4-0a34-11f0-b686-4a33b21d14f6
+#### Example Submission
+Scraping run id: 89d5dca4-0a34-11f0-b686-4a33b21d14f6
 ```json
 {
     "min_year": 1934,
@@ -80,22 +81,22 @@ def submit(answers: dict, scraping_run_id: str) -> bool:
 A Team ID is the ID we have generated for your team [here](https://scrapemequickly.com/team).
 
 - What is a **Scraping Run**?
-A scraping run is a 'time trial' of your scraping, started at time of [creation](https://scrapemequickly.com/start) and ended when the answer has been submitted. A Team ID is required to start a new scraping run.
+A scraping run is a 'time trial' of your scraping, started at time of creation and ended when the answer has been submitted. A Team ID is required to start a new scraping run.
 
 - What is a **Scraping Run ID**?
-A scraping run ID is the ID that we have generated for a Scraping Run.
+A scraping run ID is the ID that we have generated for a scraping run [here](https://scrapemequickly.com/start).
 
 - Why can I not submit another answer for my current scraping run?
-Only one answer submission can be made per scraping run, you must create a new one to try again.
+Only one answer submission can be made per scraping run, you must [create a new one](https://scrapemequickly.com/start) to try again.
 
 - How come I have sumbitted the correct answer but it was rejected?
-Please ensure your results are sent in the requested format. If you are still unsure, visit us at the event.
+Please ensure your results are sent in the [requested format](#example-submission). If you are still unsure, visit us at the event.
 
 - I am being rate-limited, what do I do?
 Use the list of proxies provided to help with this.
 
 - What languages can I use?
-Any programming language can be used as long as the answers are submitted to the API endpoint correctly.
+Any programming language can be used as long as the answers are submitted to the [API endpoint](#submit-your-answers) correctly.
 
 - Can I have a hint?
 The first hint is available on https://scrapemequickly.com
