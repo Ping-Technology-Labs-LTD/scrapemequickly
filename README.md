@@ -1,7 +1,10 @@
 # ScrapeMeQuickly
 
-Welcome to the ScrapeMeQuickly hackathon challange By Ping Proxies
+Welcome to the Scrape Me Quickly hackathon challange By Ping Proxies
 
+The goal is to collect information about all of the cars on the site, as quickly as possible.
+
+You must submit: minimum year, maximum year, average price and mode (most common) make.
 
 ### Requirements
 ```python
@@ -9,7 +12,7 @@ import requests
 import sys
 ```
 
-### Create a team
+### [Create a team](https://scrapemequickly.com/team)
 ```python
 def create_team(team_name: str, team_email: str) -> str:
     r = requests.post(
@@ -26,7 +29,7 @@ def create_team(team_name: str, team_email: str) -> str:
     return r.json()["data"]["team_id"]
 ```
 
-### Start a scraping run
+### [Start a scraping run](https://scrapemequickly.com/start)
 ```python
 def start_scraping_run(team_id: str) -> str:
     r = requests.post(f"https://api.scrapemequickly.com/scraping-run?team_id={team_id}")
@@ -39,7 +42,7 @@ def start_scraping_run(team_id: str) -> str:
     return r.json()["data"]["scraping_run_id"]
 ```
 
-### Submit your answers
+### [Submit your answers](https://scrapemequickly.com/submit)
 ```python
 def submit(answers: dict, scraping_run_id: str) -> bool:
     r = requests.post(
