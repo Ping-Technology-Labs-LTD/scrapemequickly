@@ -7,6 +7,7 @@ The goal is to collect information about all of the cars on [the site](https://s
 (Example Seed: **DO NOT USE this Scraping Run ID**)
 
 For any page that you are collecting data from, it is important that you **Attach your Scraping Run ID** in the query string as shown below.
+
 `?scraping_run_id={scraping-run-id}`
 
 You must submit: minimum year, maximum year, average price and mode (most common) make.
