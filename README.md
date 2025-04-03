@@ -4,7 +4,7 @@ Welcome to the [Scrape Me Quickly](https://scrapemequickly.com) hackathon challa
 
 The goal is to collect information about all of the cars on [the site](https://scrapemequickly.com/cars/static/0?scraping_run_id=89d5dca4-0a34-11f0-b686-4a33b21d14f6), as quickly as possible.
 
-(Example Seed: DO NOT USE this Scraping Run ID)
+(Example Seed: **DO NOT USE this Scraping Run ID**)
 
 For any page that you are collecting data from, it is important that you **Attach your Scraping Run ID** in the query string as shown below.
 `?scraping_run_id={scraping-run-id}`
