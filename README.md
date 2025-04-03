@@ -1,6 +1,6 @@
 # ScrapeMeQuickly
 
-Welcome to the Scrape Me Quickly hackathon challange By Ping Proxies
+Welcome to the [Scrape Me Quickly](https://scrapemequickly.com) hackathon challange By Ping Proxies
 
 The goal is to collect information about all of the cars on the site, as quickly as possible.
 
