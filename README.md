@@ -99,8 +99,5 @@ Use the list of proxies provided to help with this.
 - What languages can I use?
 Any programming language can be used as long as the answers are submitted to the [API endpoint](#submit-your-answers) correctly.
 
-- Can I have a hint?
-The first hint is available on https://scrapemequickly.com
-
 - Can I have a job?
 We are currently hiring! Visit https://careers.pingproxies.com/jobs for more info.
