@@ -77,7 +77,7 @@ def submit(answers: dict, scraping_run_id: str) -> bool:
 
 ### FAQ's
 - What is a **Team ID**?
-A Team ID is the ID we have generated for your given team with the team name that you provided.
+A Team ID is the ID we have generated for your team [here](https://scrapemequickly.com/team).
 
 - What is a **Scraping Run**?
 A scraping run is a 'time trial' of your scraping, started at time of creation and ended when the answer has been submitted. A Team ID is required to start a new scraping run.
