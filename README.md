@@ -64,7 +64,7 @@ def submit(answers: dict, scraping_run_id: str) -> bool:
 
     return True
 ```
-#### Example Submission
+### Example Submission
 Scraping run id: 89d5dca4-0a34-11f0-b686-4a33b21d14f6
 ```json
 {
