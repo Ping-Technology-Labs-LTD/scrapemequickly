@@ -1,16 +1,68 @@
 # Scrape Me Quickly
 
-Welcome to the [Scrape Me Quickly](https://scrapemequickly.com) hackathon challange by [Ping Proxies](https://pingproxies.com).
+![Scrape Me Quickly Logo](header.png)
 
-The goal is to collect information about all of the cars on [the site](https://scrapemequickly.com/cars/static/0?scraping_run_id=89d5dca4-0a34-11f0-b686-4a33b21d14f6), as quickly as possible.
+Welcome to the [Scrape Me Quickly](https://scrapemequickly.com) hackathon challenge by [Ping Proxies](https://pingproxies.com).
 
-(Example Seed: **DO NOT USE this Scraping Run ID**)
+Join our [discount channel](https://discord.gg/pingproxies) for special offers and updates!
 
-For any page that you are collecting data from, it is important that you **Attach your Scraping Run ID** in the query string as shown below.
+## Overview
+
+The goal is to build a system which can scrape all 100,000 car listings on the ScrapeMeQuickly website, analyze the results, and submit your answers as quickly as possible.
+
+## What You'll Learn
+
+This challenge will test your problem-solving skills and curiosity! You'll learn fundamental web-scraping techniques and:
+
+- Face roadblocks like bans or rate-limits that you'll need to overcome with solutions like proxies
+- Investigate the website and build a system which can scrape data optimally, testing code quality, concurrency handling, and implementing retry mechanisms
+- Get a good introduction to web data collection and data analysis - increasingly important and widely used skills across many industries including:
+  - Finance (market analysis, competitor pricing)
+  - E-commerce (product monitoring, dynamic pricing)
+  - Real estate (property listings, market trends)
+  - Research (data collection for academic studies)
+  - Marketing (consumer insights, social media analysis)
+
+## How It Works
+
+You'll create a team, and then your team can create a scraping run - that's when the timer begins! Your system must scrape all the data, analyze it, and submit it as quickly as possible to our results endpoint. 
+
+Your team's fastest score will be shown on the public leaderboard along with your number of attempts. You can constantly iterate and improve your system, trying for new faster runs until the close of the challenge on Sunday at 15:30PM.
+
+Some Ping team members have tried to build their optimal systems, and their scores are shown on a separate leaderboard on the website.
+
+We've left descriptive errors throughout the website to give some clues, and if you run into any major issues, we'll be available at our booth to help.
+
+## Prizes
+
+1st Team: 4 x Keychron K8 Keyboards  
+2nd Team: 4 x £20 Amazon Vouchers  
+3rd Team: 4 x £15 Uber Eats Vouchers  
+
+## Instructions
+
+1. Register team at [Scrape Me Quickly](https://scrapemequickly.com) using one of your UoM email addresses and an appropriate name
+2. Familiarize yourself with the instructions
+3. Investigate the website
+4. Collect your proxies
+5. Build your first system
+6. Register a scraping run
+7. Scrape all the 100K car listings, analyze the results, submit your answers to register your first run time
+8. Iterate your system, improve your run times, and win a prize...hopefully!
+
+## Good Web Scraping Education Resources
+
+X Y Z
+
+## Important Note
+
+For any page that you are collecting data from, it is important that you **Attach your Scraping Run ID** in the query string as shown below:
 
 `?scraping_run_id={scraping-run-id}`
 
 You must submit: **minimum year**, **maximum year**, **average price** and **mode (most common) make**.
+
+**Important note:** To stop the cheaters, data is seeded uniquely for each scraping run, meaning you'll get different car data each time you create a new run. 
 
 ### Requirements
 ```python
@@ -65,6 +117,7 @@ def submit(answers: dict, scraping_run_id: str) -> bool:
 
     return True
 ```
+
 ### Example Submission
 Scraping run id: 89d5dca4-0a34-11f0-b686-4a33b21d14f6
 ```json
@@ -76,28 +129,31 @@ Scraping run id: 89d5dca4-0a34-11f0-b686-4a33b21d14f6
 }
 ```
 
+## FAQ's
 
-### FAQ's
-- What is a **Team ID**?
-A Team ID is the ID we have generated for your team [here](https://scrapemequickly.com/team).
+- **What is a Team ID?**  
+  A Team ID is the ID we have generated for your team [here](https://scrapemequickly.com/team).
 
-- What is a **Scraping Run**?
-A scraping run is a 'time trial' of your scraping, started at time of creation and ended when the answer has been submitted. A Team ID is required to start a new scraping run.
+- **What is a Scraping Run?**  
+  A scraping run is a 'time trial' of your scraping, started at time of creation and ended when the answer has been submitted. A Team ID is required to start a new scraping run.
 
-- What is a **Scraping Run ID**?
-A scraping run ID is the ID that we have generated for a scraping run [here](https://scrapemequickly.com/start).
+- **What is a Scraping Run ID?**  
+  A scraping run ID is the ID that we have generated for a scraping run [here](https://scrapemequickly.com/start).
 
-- Why can I not submit another answer for my current scraping run?
-Only one answer submission can be made per scraping run, you must [create a new one](https://scrapemequickly.com/start) to try again.
+- **Why can I not submit another answer for my current scraping run?**  
+  Only one answer submission can be made per scraping run, you must [create a new one](https://scrapemequickly.com/start) to try again.
 
-- How come I have sumbitted the correct answer but it was rejected?
-Please ensure your results are sent in the [requested format](#example-submission). If you are still unsure, visit us at the event.
+- **How come I have submitted the correct answer but it was rejected?**  
+  Please ensure your results are sent in the [requested format](#example-submission). If you are still unsure, visit us at the event.
 
-- I am being rate-limited, what do I do?
-Use the list of proxies provided to help with this.
+- **I am being rate-limited, what do I do?**  
+  Use the list of proxies provided to help with this.
 
-- What languages can I use?
-Any programming language can be used as long as the answers are submitted to the [API endpoint](#submit-your-answers) correctly.
+- **What languages can I use?**  
+  Any programming language can be used as long as the answers are submitted to the [API endpoint](#submit-your-answers) correctly.
 
-- Can I have a job?
-We are currently hiring! Visit https://careers.pingproxies.com/jobs for more info.
+- **Can I have a job?**  
+  We are currently hiring! Visit https://careers.pingproxies.com/jobs for more info.
+
+- **Want to try web-scraping in your spare time?**  
+  Fill out [our form](https://event.activation.free-proxies.pingproxies.com) to get $50 free Ping Proxies credit to continue your web scraping journey after the hackathon!
