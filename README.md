@@ -50,9 +50,18 @@ We've left descriptive errors throughout the website to give some clues, and if 
 7. Scrape all the 100K car listings, analyze the results, submit your answers to register your first run time
 8. Iterate your system, improve your run times, and win a prize...hopefully!
 
+## Rules
+
+1. Use an appropriate team name
+2. The web-scraping code and request execution should happen within your system and codebase i.e you can't use a paid web-scraping service or API
+
 ## Good Web Scraping Education Resources
 
-X Y Z
+- [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - Python library for pulling data out of HTML and XML files
+- [MDN Web Docs: Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) - Understanding HTML document structure
+- [Requests Library Documentation](https://requests.readthedocs.io/en/latest/) - Simple HTTP library for Python
+- [10 Essential Scraping Tools for Developers](https://pingproxies.com/blog/scraping-tools-for-developers) - Comprehensive look at tools which web-scraping developers find useful
+- [ScrapingBee Web-Scraping Guide](https://www.scrapingbee.com/blog/web-scraping-101-with-python/) - Web-scraping 101
 
 ## Important Note
 
