@@ -4,8 +4,6 @@
 
 Welcome to the [Scrape Me Quickly](https://scrapemequickly.com) hackathon challenge by [Ping Proxies](https://pingproxies.com).
 
-Join our [discount channel](https://discord.gg/pingproxies) for special offers and updates!
-
 ## Overview
 
 The goal is to build a system which can scrape all 100,000 car listings on the ScrapeMeQuickly website, analyze the results, and submit your answers as quickly as possible.
@@ -139,6 +137,12 @@ Scraping run id: 89d5dca4-0a34-11f0-b686-4a33b21d14f6
 ```
 
 ## FAQ's
+
+- **When do submissions close?**  
+  Submissions close at 3:30PM UK on Sunday April 6th 2025.
+
+- **Need some help?**  
+  Pop by our booth or @ us in the main Discord channel. We'll be available all Hackathon to answer questions but bare in mind, it's meant to be a challenge and we can't give everything away😉
 
 - **What is a Team ID?**  
   A Team ID is the ID we have generated for your team [here](https://scrapemequickly.com/team).
