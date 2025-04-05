@@ -25,7 +25,7 @@ This challenge will test your problem-solving skills and curiosity! You'll learn
 
 You'll create a team, and then your team can create a scraping run - that's when the timer begins! Your system must scrape all the data, analyze it, and submit it as quickly as possible to our results endpoint. 
 
-Your team's fastest score will be shown on the public leaderboard along with your number of attempts. You can constantly iterate and improve your system, trying for new faster runs until the close of the challenge on Sunday at 15:30PM.
+Your team's fastest score will be shown on the public leaderboard along with your number of attempts. You can constantly iterate and improve your system, trying for new faster runs until the close of the challenge on Sunday at 2:00PM.
 
 Some Ping team members have tried to build their optimal systems, and their scores are shown on a separate leaderboard on the website.
 
