@@ -139,7 +139,7 @@ Scraping run id: 89d5dca4-0a34-11f0-b686-4a33b21d14f6
 ## FAQ's
 
 - **When do submissions close?**  
-  Submissions close at 3:30PM UK on Sunday April 6th 2025.
+  Submissions close at 2:00PM UK on Sunday April 6th 2025.
 
 - **Need some help?**  
   Pop by our booth or @ us in the main Discord channel. We'll be available all Hackathon to answer questions but bare in mind, it's meant to be a challenge and we can't give everything away😉
