@@ -6,7 +6,7 @@ Welcome to the [Scrape Me Quickly](https://scrapemequickly.com) hackathon challe
 
 ## Overview
 
-The goal is to build a system which can scrape all 100,000 car listings on the ScrapeMeQuickly website, analyze the results, and submit your answers as quickly as possible.
+The goal is to build a system which can scrape all 25,000 car listings on the ScrapeMeQuickly website, analyze the results, and submit your answers as quickly as possible.
 
 ## What You'll Learn
 
